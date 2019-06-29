@@ -1,0 +1,22 @@
+{
+  "name": "ga-gutenberg-blocks",
+  "version": "1.0.0",
+  "description": "Adds Gutenberg Blocks into the Website",
+  "main": "index.js",
+  "scripts": {
+      "build": "wp-scripts build",
+      "start": "wp-scripts start"
+  },
+  "keywords": [
+    "WP-Scripts",
+    "Gutenberg",
+    "React"
+  ],
+  "author": "Juan Pablo De la torre",
+  "license": "ISC",
+  "dependencies": {
+    "@svgr/webpack": "^4.3.0",
+    "@wordpress/scripts": "^3.3.0",
+    "url-loader": "^2.0.1"
+  }
+}

@@ -1,0 +1,24 @@
+.image-text-block {
+    color: white;
+}
+
+.editor-styles-wrapper ul {
+    list-style: none!important;
+}
+.latest-recipes {
+    list-style: none;
+    padding: 0;
+}
+@media (min-width: 768px) {
+    .latest-recipes {
+        display: flex;
+        justify-content: space-between;
+    }
+    .latest-recipes li {
+        flex: 0 0 calc(33.3% - 2rem);
+    }
+}
+.latest-recipes-heading{
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,199 @@
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.testimonial-block {
+    border-top: 4px solid #ed143d;
+    padding: 1rem;
+    position: relative;
+}
+.testimonial-block blockquote::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 400px;
+    height: 400px;
+    background-image: url('img/quote.svg');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 300px;
+    opacity: .3;
+    z-index: -2;
+}
+.testimonial-block blockquote{
+    padding-left: 150px;
+    margin: 3rem;
+}
+
+.testimonial-info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.testimonial-info img {
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.testimonial-info p {
+    font-family: 'Montserrat', sans-serif;
+    color: #ed143d;
+    font-weight: 700;
+}
+
+/** Hero **/
+.hero-block {
+    background: #3f9c1b;
+    background-repeat: no-repeat;
+    background-position:  bottom center;
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 120px;
+}
+.hero-block h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0 2rem;
+    width: 100%;
+}
+.hero-block p {
+    font-size: 22px;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+/*** Alignment **/
+.alignwide {
+    padding: 100px 1rem!important;
+}
+.image-text-block {
+    padding: 100px 0;
+    background-color: dodgerblue;
+}
+.image-text-block .button {
+    color: dodgerblue;
+}
+
+.is-style-green {
+    background-color: #3f9c1b;
+}
+.is-style-green .button,
+.is-style-green .button:hover  {
+    color: #3f9c1b!important;
+}
+.is-style-pink {
+    background-color: #a3015a;
+}
+.is-style-pink .button,
+.is-style-pink .button:hover {
+    color: #a3015a!important;
+}
+
+.image-text-block  {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.image-text-block .container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-text-block .content {
+    flex: 0 0 60%;
+    color: white;
+}
+.image-text-block h1 {
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    margin: 0;
+    font-size: 60px;
+    color: white;
+}
+.image-text-block .content 
+.image-text-block .imagen {
+    flex: 0 1 calc(40% - 2rem);
+}
+.image-text-block .button {
+    background-color: white;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    height: auto;
+}
+.image-text-block .button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+/***  Latest Recipes **/
+.latest-recipes {
+    list-style: none;
+    padding: 0;
+}
+h2.heading-latest {
+    width: 100%;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .latest-recipes {
+        display: flex;
+        justify-content: space-between;
+    }
+    .latest-recipes li {
+        flex: 0 0 calc(33.3% - 1rem);
+    }
+}
+.latest-recipes .content {
+    padding: 10px 20px;
+}
+.latest-recipes h2 {
+    color: black;
+    font-size: 30px;
+    margin: 0;
+    line-height: 1.2;
+}
+.latest-recipes .meta span {
+    color: #3f9c1b;
+    font-weight: bold;
+}
+.latest-recipes .button {
+    background-color: #3f9c1b;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    height: auto;
+}
+.alignfull {
+    margin: 32px calc(50% - 50vw);
+	max-width: 100vw;
+	width: 100vw;
+}
+
+.latest-recipes-heading{
+    width: 100%;
+    text-align: center;
+}
